@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\28165\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\28165\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.3 (Oracle Corporation Java 17.0.1)
+[debug]       Load.loadUnit: plugins took 398.4665ms
+[debug]       Load.loadUnit: defsScala took 0.4443ms
+[debug] [Loading] Scanning directory C:\Users\28165\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\28165\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.038 ms
+[debug]           Load.resolveProject(global-plugins) took 99.8842ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\28165\.sbt\1.0\plugins, plugins: List(<none>))) took 171.9982ms
+[debug] [Loading] Done in C:\Users\28165\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 226.961ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3625ms
+[debug]     Load.loadUnit(file:/C:/Users/28165/.sbt/1.0/plugins/, ...) took 646.2905ms
+[debug]   Load.apply: load took 1080.2851ms
+[debug]   Load.apply: resolveProjects took 10.4497ms
+[debug]   Load.apply: finalTransforms took 117.0501ms
+[debug]   Load.apply: config.delegates took 20.7691ms
+[debug]   Load.apply: Def.make(settings)... took 1317.3156ms
+[debug]   Load.apply: structureIndex took 222.8061ms
+[debug]   Load.apply: mkStreams took 10.0276ms
+[info] loading global plugins from C:\Users\28165\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 9348.8913ms
+[debug]           Load.loadUnit: plugins took 45.7693ms
+[debug]           Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main\project
+[debug]             Load.loadUnit: mkEval took 8.2744ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.5857 ms
+[info] loading settings for project reps-main-build from idea.sbt ...
+[debug]               Load.resolveProject(reps-main-build) took 3.3622ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id reps-main-build, base: C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main\project, plugins: List(<none>))) took 6.6202ms
+[debug] [Loading] Done in C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main\project, returning: (reps-main-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5255.8626ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.4575ms
+[debug]         Load.loadUnit(file:/C:/Users/28165/Desktop/课程资料/第二年/离散数学2项目/REPS-main/project/, ...) took 5312.4811ms
+[debug]       Load.apply: load took 5315.1385ms
+[debug]       Load.apply: resolveProjects took 0.3504ms
+[debug]       Load.apply: finalTransforms took 69.7309ms
+[debug]       Load.apply: config.delegates took 0.5261ms
+[debug]       Load.apply: Def.make(settings)... took 149.1287ms
+[debug]       Load.apply: structureIndex took 117.5429ms
+[debug]       Load.apply: mkStreams took 0.0052ms
+[info] loading project definition from C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 12481.0262ms
+[debug]     Load.loadUnit: defsScala took 0.0217ms
+[debug] [Loading] Scanning directory C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main
+[debug]       Load.loadUnit: mkEval took 3.3089ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 5.1752 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 124.9183ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main, plugins: List(<none>))) took 137.2087ms
+[debug] [Loading] Done in C:\Users\28165\Desktop\课程资料\第二年\离散数学2项目\REPS-main, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4821.832ms
+[debug]     Load.loadUnit: cleanEvalClasses took 74.6499ms
+[debug]   Load.loadUnit(file:/C:/Users/28165/Desktop/课程资料/第二年/离散数学2项目/REPS-main/, ...) took 17382.0206ms
+[debug] Load.apply: load took 17398.2036ms
+[debug] Load.apply: resolveProjects took 0.2535ms
+[debug] Load.apply: finalTransforms took 62.8606ms
+[debug] Load.apply: config.delegates took 1.0469ms
+[debug] Load.apply: Def.make(settings)... took 134.1405ms
+[debug] Load.apply: structureIndex took 35.6152ms
+[debug] Load.apply: mkStreams took 0.0032ms
+[info] set current project to project 2 (in build file:/C:/Users/28165/Desktop/课程资料/第二年/离散数学2项目/REPS-main/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54923 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54923, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to project 2 (in build file:/C:/Users/28165/Desktop/课程资料/第二年/离散数学2项目/REPS-main/)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,63 @@
+2023.05.13 13:54:41 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src' for client Visual Studio Code 1.78.2.
+5月 13, 2023 1:54:41 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+5月 13, 2023 1:54:41 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+5月 13, 2023 1:54:41 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+5月 13, 2023 1:54:41 下午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\.metals\metals (H2 2.1)
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+信息: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.019s)
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+信息: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": << Empty Schema >>
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "1 - Create tables"
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "2 - Server discovery"
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+5月 13, 2023 1:54:42 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.055s)
+2023.05.13 13:54:42 INFO  time: initialize in 0.54s
+2023.05.13 13:54:43 WARN  Build server is not auto-connectable.
+2023.05.13 13:54:43 WARN  no build tool detected in workspace 'C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.13 13:54:43 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\EnergyPlantSystem.scala
+2023.05.13 13:54:45 INFO  no build target found for C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\EnergyPlantSystem.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.13 13:54:46 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/EnergyPlantSystem.scala
+2023.05.13 13:54:46 INFO  time: code lens generation in 3.38s
+2023.05.13 13:54:48 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/EnergyPlantSystem.scala
+2023.05.13 13:55:28 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\facility\EnergyFacility.scala
+2023.05.13 13:55:28 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/EnergyFacility.scala
+2023.05.13 13:55:28 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/EnergyFacility.scala
+2023.05.13 13:55:37 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\facility\SolarPanel.scala
+2023.05.13 13:55:37 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/SolarPanel.scala
+2023.05.13 13:55:37 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/SolarPanel.scala
+2023.05.13 13:55:43 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\facility\WindTurbine.scala
+2023.05.13 13:55:43 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/WindTurbine.scala
+2023.05.13 13:55:43 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/WindTurbine.scala
+2023.05.13 13:55:49 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\facility\HydropowerPlant.scala
+2023.05.13 13:55:49 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/HydropowerPlant.scala
+2023.05.13 13:55:49 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/facility/HydropowerPlant.scala
+2023.05.13 13:55:56 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\data\DataCollector.scala
+2023.05.13 13:55:56 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/data/DataCollector.scala
+2023.05.13 13:55:56 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/data/DataCollector.scala
+2023.05.13 13:56:05 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\data\DataAnalyzer.scala
+2023.05.13 13:56:05 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/data/DataAnalyzer.scala
+2023.05.13 13:56:06 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/data/DataAnalyzer.scala
+2023.05.13 13:56:11 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\main\scala\utils\FacilityUtils.scala
+2023.05.13 13:56:11 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/utils/FacilityUtils.scala
+2023.05.13 13:56:12 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/main/scala/utils/FacilityUtils.scala
+2023.05.13 13:56:23 WARN  no build target for: C:\Users\Administrator\Desktop\Study\Task2023\discrete 2\project\REPS\src\test\scala\EnergyPlantSystemTest.scala
+2023.05.13 13:56:23 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/test/scala/EnergyPlantSystemTest.scala
+2023.05.13 13:56:24 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/test/scala/EnergyPlantSystemTest.scala
+2023.05.13 13:57:29 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Desktop/Study/Task2023/discrete%202/project/REPS/src/test/scala/EnergyPlantSystemTest.scala
+2023.05.13 13:57:32 INFO  Shutting down server
+2023.05.13 13:57:32 INFO  shutting down Metals
+2023.05.13 13:57:32 INFO  Exiting server

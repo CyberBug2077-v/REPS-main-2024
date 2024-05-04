@@ -1,0 +1,14 @@
+Plant ID, Facility Type, Status, Current Output, Max Output, Device Status
+solar0CM57, SolarPanel, Running, 7.5, 100.0, Damaged
+wind4X63G, WindTurbine, Running, 15.929726954297635, 100.0, Damaged
+solarJYLOP, SolarPanel, Running, 7.5, 100.0, Damaged
+solarW8P51, SolarPanel, Running, 7.5, 100.0, Damaged
+solarJ8AQB, SolarPanel, Running, 7.5, 100.0, Damaged
+solar4P755, SolarPanel, Running, 7.5, 100.0, Damaged
+hydroPHLAU, Hydropower, Running, 50.15347677446349, 100.0, Damaged
+solar0NEBE, SolarPanel, Running, 15.0, 200.0, Damaged
+solar9UI6M, SolarPanel, Running, 7.5, 100.0, Damaged
+solar7EKGW, SolarPanel, Running, 7.5, 100.0, Damaged
+solarA1C9K, SolarPanel, Running, 7.5, 100.0, Damaged
+solarPC1KV, SolarPanel, Running, 7.5, 100.0, Normal
+solar3B3GQ, SolarPanel, Running, 7.5, 100.0, Normal
