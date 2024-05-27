@@ -3,7 +3,7 @@ DMM2 project.
 
 Group: fwj2.
 
-Memebrs:
+Members:
 Junyang Huang,
 Tianhao Li,
 Joy Adelegan
